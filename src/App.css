@@ -72,6 +72,10 @@ a:hover{
 #icon{
   color: black!important;
 }
+.card-footer{
+  background-color: #F6EA8C;
+  color: #1B2432;
+}
 @media(max-width: 450px){
   .dev-text{
     letter-spacing: 6px;
