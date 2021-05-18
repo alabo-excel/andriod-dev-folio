@@ -1,9 +1,10 @@
+import Hamburger from '../img/square.svg'
 function App() {
     return (
       <nav className="navbar navbar-expand-lg px-lg-5 pt-3">
         <div>
-          <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <img src={Hamburger} alt="hamburger" className="hamburger" />
           </button>
           <h2 className="navbar-brand d-none">Navbar</h2>
         </div>

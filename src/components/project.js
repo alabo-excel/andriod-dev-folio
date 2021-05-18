@@ -8,8 +8,8 @@ function NumberList() {
     {title: 'Bookuro'},
     {title: 'Bookuro'},
   ];
-  const listItems = numbers.map((number) =>
-    <div key={number.toString()} className="col-lg-3 m-3">
+  const listItems = numbers.map((number,index) =>
+    <div key={index} className="col-lg-3 m-3">
       <img src={App} alt="project-img" />
       <div className="card-footer font-weight-normal">
         <strong>APP NAME:</strong> {number.title}

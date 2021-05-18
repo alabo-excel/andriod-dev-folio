@@ -76,11 +76,22 @@ a:hover{
   background-color: #F6EA8C;
   color: #1B2432;
 }
+.hamburger{
+  width: 40px;
+}
 @media(max-width: 450px){
   .dev-text{
     letter-spacing: 6px;
   }
   .text{
     width: 120%;
+  }
+  .navbar{
+    background-color: #F6EA8C;
+    padding-bottom: 20px;
+  }
+  .navbar a{
+    color: #1B2432!important;
+    font-weight: 500;
   }
 }
